@@ -15,6 +15,53 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content-right">
+                        <div class="header__content-text">
+                            <span> Need help?</span> Talk to an expert: <a href="tel:+61383766284">+61 3 8376 6284</a>
+                        </div>
+                        <div class="header__content-items">
+                            <div class="header__content-item header-basket">
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div class="header__btn">
+                            <a class="header__btn-login" data-fancybox data-src="#modal" href="javascript:;">Login</a>
+                            <a class="header__btn-register" href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">WordPress</a></li>
+                        <li><a href="#">Joomla</a></li>
+                        <li><a href="#">PSD</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
 
     <footer class="footer">
         <div class="footer__content">
@@ -91,11 +138,32 @@
             </div>
         </div>
         <div class="footer__copy">
-            © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+            <div class="container">
+                <div class="footer__copy-text">
+                    © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+                </div>
+            </div>
         </div>
     </footer>
 
-
+    <div id="modal">
+        <div class="modal__title">
+            login
+        </div>
+        <div class="modal__form-inner">
+            <form class="modal__form">
+                <label class="form__name">
+                    <input type="text" autocomplete="off" placeholder="Name">
+                </label>
+                <label class="form__pass">
+                    <input type="password" autocomplete="off" placeholder="Password">
+                </label>
+                <input type="submit" value="SABMIT">
+                <a class="form__link" href="#">Creat An Account?</a>
+            </form>
+            <a class="form__lost-pass" href="#">Lost Password?</a>
+        </div>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
