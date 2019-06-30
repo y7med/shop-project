@@ -690,6 +690,34 @@ a {
   color: #263238;
 }
 
+.breadcrumbs {
+  padding: 45px 0px 40px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  padding-right: 9px;
+}
+
+.breadcrumbs li:after {
+  content: "-";
+  color: #8bc34a;
+  margin-left: 9px;
+}
+
+.breadcrumbs li:last-child a {
+  color: #263238;
+}
+
+.breadcrumbs li:last-child:after {
+  display: none;
+}
+
+.breadcrumbs a {
+  color: #b0bec5;
+  font-size: 15px;
+}
+
 .footer {
   background-color: #263238;
 }

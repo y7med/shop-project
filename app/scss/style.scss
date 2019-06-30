@@ -517,6 +517,33 @@ a{
         color: $fon;
     }
 }
+// category page
+
+.breadcrumbs{
+    padding: 45px 0px 40px;
+    li{
+        display: inline-block;
+        padding-right: 9px;
+        &:after{
+            content: "-";
+            color: $line;
+            margin-left: 9px;
+        }
+        &:last-child{
+            a{
+                color: $fon;
+            }
+            &:after{
+                display: none;
+            }
+        }
+    }
+    a{
+        color: #b0bec5;
+        font-size: 15px;
+    }
+}
+// category page end
 
 
 
